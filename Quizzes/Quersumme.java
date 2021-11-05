@@ -130,10 +130,7 @@ public class Exam {
 
 		}
 
-		for (int i = 0; i < max.length; i++) {
-			System.err.println(max[i]);
-
-		}
+		System.out.println("---------------------------------");
 
 		int maximun = max[getIndexOfLargest(max)];
 
@@ -144,7 +141,10 @@ public class Exam {
 
 		}
 
-		System.out.println("The most repeted Numbers is : " + big);
+		System.out.println(
+				"One of the most repeated numbers are : " + big.get(0) + ", " + big.get(1) + ", " + big.get(2));
+
+		System.out.println("---------------------------------");
 
 	}
 }
